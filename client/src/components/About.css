@@ -1,0 +1,10 @@
+.about-section img {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-section img:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    position: relative; /* Ensure z-index is applied */
+}

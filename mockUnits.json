@@ -1,0 +1,422 @@
+[
+    {
+        "unitNumber": "A1",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "A2",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "A3",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "A4",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "A5",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "A6",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "A7",
+        "size": "10X20",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+    },
+    {
+        "unitNumber": "A8",
+        "size": "10X20",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+    },
+    {
+        "unitNumber": "A9",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "A10",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "A11",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "A12",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "A13",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "A14",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "A15",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "A16",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "A17",
+        "size": "10X20",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+    },
+    {
+        "unitNumber": "A18",
+        "size": "10X20",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+    },
+    {
+        "unitNumber": "A19",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "A20",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "B1",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "B2",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "B3",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "B4",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "B5",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "B6",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "B7",
+        "size": "10X20",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+    },
+    {
+        "unitNumber": "B8",
+        "size": "10X20",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+    },
+    {
+        "unitNumber": "B9",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "B10",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "B11",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "B12",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "B13",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "B14",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "B15",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "B16",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "B17",
+        "size": "10X20",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+    },
+    {
+        "unitNumber": "B18",
+        "size": "10X20",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+    },
+    {
+        "unitNumber": "B19",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "B20",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "C1",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "C2",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "C3",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "C4",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "C5",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "C6",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "C7",
+        "size": "10X20",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+    },
+    {
+        "unitNumber": "C8",
+        "size": "10X20",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+    },
+    {
+        "unitNumber": "C9",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "C10",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "C11",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "C12",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "C13",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "C14",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "C15",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "C16",
+        "size": "5X5",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+    },
+    {
+        "unitNumber": "C17",
+        "size": "10X20",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+    },
+    {
+        "unitNumber": "C18",
+        "size": "10X20",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+    },
+    {
+        "unitNumber": "C19",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    },
+    {
+        "unitNumber": "C20",
+        "size": "10X10",
+        "isAvailable": true,
+        "nextPaymentDue": "2024-12-01T00:00:00Z",
+        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+    }
+]
