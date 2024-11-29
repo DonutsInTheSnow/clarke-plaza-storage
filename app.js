@@ -22,7 +22,7 @@ app.use(express.json());
 // app.use(cors({ origin: 'http://localhost:3000' }));
 
 // Allows all origins during deployment and serves as a placeholder
-app.use(cors({ origin: '*' }));
+app.use(cors({ origin: 'https://self-storage-frontend.vercel.app/' }));
 
 
 
