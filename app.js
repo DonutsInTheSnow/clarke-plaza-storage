@@ -26,15 +26,12 @@ app.use('/webhook', webhookRoutes);
 app.use(express.json());
 
 const allowedOrigins = [
-  'https://self-storage-frontend.vercel.app', // Frontend in production
-  'http://localhost:3000', // Frontend during development
+  'https://self-storage-frontend.vercel.app', 
+  'http://localhost:3000', 
 ];
-app.use(cors({ origin: allowedOrigins }));
-
 const corsOptions = {
   origin: (origin, callback) => {
-    console.log('Origin:', origin); // Debug line
-    if (allowedOrigins.includes(origin) || !origin) {
+    if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
       callback(new Error('Not allowed by CORS'));
