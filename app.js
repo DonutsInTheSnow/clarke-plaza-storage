@@ -26,12 +26,16 @@ app.use('/webhook', webhookRoutes);
 // Middleware
 app.use(express.json());
 
-// Allows all origins during deployment and serves as a placeholder
-const allowedOrigins = [
-  'https://self-storage-frontend.vercel.app', // Frontend in production
-  'http://localhost:3000', // Frontend during development
-];
-app.use(cors({ origin: allowedOrigins }));
+const corsOptions = {
+  origin: (origin, callback) => {
+    if (allowedOrigins.includes(origin) || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+};
+app.use(cors(corsOptions));
 
 // Serve static files from the React frontend build directory
 // app.use(express.static('client/build'));
