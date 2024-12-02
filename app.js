@@ -17,7 +17,6 @@ mongoose.connect(process.env.MONGO_URI, {
   useUnifiedTopology: true 
 });
 
-
 // For Stripe webhook listeners to work the following 2 lines must 
 // precede `express.json()` because it interferes with raw data in webhook.js 
 const webhookRoutes = require('./routes/webhook');
@@ -26,8 +25,15 @@ app.use('/webhook', webhookRoutes);
 // Middleware
 app.use(express.json());
 
+const allowedOrigins = [
+  'https://self-storage-frontend.vercel.app', // Frontend in production
+  'http://localhost:3000', // Frontend during development
+];
+app.use(cors({ origin: allowedOrigins }));
+
 const corsOptions = {
   origin: (origin, callback) => {
+    console.log('Origin:', origin); // Debug line
     if (allowedOrigins.includes(origin) || !origin) {
       callback(null, true);
     } else {
@@ -57,7 +63,6 @@ app.use((req, res, next) => {
   console.log(`Incoming request: ${req.method} ${req.path}`);
   next();
 });
-
 
 // Start Server
 app.listen(port, () => {
