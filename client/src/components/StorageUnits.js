@@ -14,12 +14,12 @@ const StorageUnits = () => {
   useEffect(() => {
     const fetchUnits = async () => {
       try {
-        const response = await axios.get('/units/available');
+        const response = await axios.get('https://self-storage-beta.vercel.app/units/available');
         const unitsWithPrices = await Promise.all(
           response.data.map(async (unit) => {
             if (unit.priceId) {
               try {
-                const priceResponse = await axios.get(`/checkout/get-price-details/${unit.priceId}`);
+                const priceResponse = await axios.get(`https://self-storage-beta.vercel.app/checkout/get-price-details/${unit.priceId}`);
                 return { ...unit, price: priceResponse.data.price };
               } catch (err) {
                 console.error(`Failed to fetch price for unit ${unit.unitNumber}:`, err);
