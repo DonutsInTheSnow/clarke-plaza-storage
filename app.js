@@ -7,9 +7,16 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log('Connected to MongoDB!'))
-  .catch(err => console.error('Failed to connect to MongoDB', err));
+// mongoose.connect(process.env.MONGO_URI)
+//   .then(() => console.log('Connected to MongoDB!'))
+//   .catch(err => console.error('Failed to connect to MongoDB', err));
+
+// Try the following mongoose.connect for Vercel
+mongoose.connect(process.env.MONGO_URI, { 
+  useNewUrlParser: true, 
+  useUnifiedTopology: true 
+});
+
 
 // For Stripe webhook listeners to work the following 2 lines must 
 // precede `express.json()` because it interferes with raw data in webhook.js 
@@ -19,15 +26,15 @@ app.use('/webhook', webhookRoutes);
 // Middleware
 app.use(express.json());
 
-// app.use(cors({ origin: 'http://localhost:3000' }));
-
 // Allows all origins during deployment and serves as a placeholder
-app.use(cors({ origin: 'https://self-storage-frontend.vercel.app/' }));
-
-
+const allowedOrigins = [
+  'https://self-storage-frontend.vercel.app', // Frontend in production
+  'http://localhost:3000', // Frontend during development
+];
+app.use(cors({ origin: allowedOrigins }));
 
 // Serve static files from the React frontend build directory
-app.use(express.static('client/build'));
+// app.use(express.static('client/build'));
 
 // Routes
 const checkoutRoutes = require('./routes/checkout');
@@ -40,6 +47,13 @@ app.use('/units', unitsRouter);
 app.get('/', (_, res) => {
   res.send('Welcome to Rourke Storage API!');
 });
+
+// Troubleshooting 404 Not Found error at Vercel with following log
+app.use((req, res, next) => {
+  console.log(`Incoming request: ${req.method} ${req.path}`);
+  next();
+});
+
 
 // Start Server
 app.listen(port, () => {
