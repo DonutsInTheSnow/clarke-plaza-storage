@@ -6,6 +6,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
 import Checkout from './components/Checkout';
 import Confirmation from './components/Confirmation';
+import Success from './components/Success';
 import Hero from './components/Hero';
 import About from './components/About';
 import BottomNav from './components/BottomNav';
@@ -51,6 +52,7 @@ function App() {
           }
         />
         <Route path="/confirmation" element={<Confirmation />} />
+        <Route path="/success" element={<Success />} />
       </Routes>
     </Router>
   );

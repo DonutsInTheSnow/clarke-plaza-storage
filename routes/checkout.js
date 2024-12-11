@@ -73,7 +73,7 @@ router.post('/create-checkout-session', async (req, res) => {
         size: unit.size,
         isAvailable: unit.isAvailable,
       },
-      success_url: 'https://example.com/success',
+      success_url: 'https://self-storage-frontend.vercel.app/success',
       cancel_url: 'https://example.com/cancel',
     });
 
