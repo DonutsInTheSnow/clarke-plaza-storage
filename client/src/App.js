@@ -1,4 +1,3 @@
-// import React from 'react';
 import React, { useRef } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import StorageUnits from './components/StorageUnits';
@@ -7,6 +6,7 @@ import { Elements } from '@stripe/react-stripe-js';
 import Checkout from './components/Checkout';
 import Confirmation from './components/Confirmation';
 import Success from './components/Success';
+import Cancel from './components/Cancel';
 import Hero from './components/Hero';
 import About from './components/About';
 import BottomNav from './components/BottomNav';
@@ -53,6 +53,7 @@ function App() {
         />
         <Route path="/confirmation" element={<Confirmation />} />
         <Route path="/success" element={<Success />} />
+        <Route path="/cancel" element={<Cancel />} />
       </Routes>
     </Router>
   );
