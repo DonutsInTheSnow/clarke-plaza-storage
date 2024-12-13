@@ -1,5 +1,10 @@
 .about-section {
     background-color: #00ffff;
+    padding: 40px 20px;
+}
+
+.about-section h2 {
+    text-shadow: -6px 0 7px #000;
 }
 
 .about-section img {
@@ -8,7 +13,7 @@
 }
 
 .about-section img:hover {
-    transform: scale(.95);
+    transform: scale(.75);
     z-index: 1;
     position: relative; /* Ensure z-index is applied */
 }
@@ -27,27 +32,27 @@
         font-size: 3em;
     }
     .about-section p {
-        font-size: 1.1em;
         font-weight: 500;
     }
 }
 
 @media (max-width: 1000px) {
     .about-section h2 {
-        font-size: 2.5em;
-    }
-    .about-section p {
-        font-size: 1em;
-        font-weight: 400;
+        font-size: 2.6em;
     }
 }
 
 @media (max-width: 500px) {
+    .about-section {
+        padding: 10px 5px;
+    }
     .about-section h2 {
-        font-size: 2.2em;
+        font-size: 2.5em;
+        padding: 1em 0 .5em 0;
+        text-shadow: -3px 0 4px #000;
     }
     .about-section p {
-        padding: .5em;
+        padding: .25em;
         font-weight: 700;
     }
 }

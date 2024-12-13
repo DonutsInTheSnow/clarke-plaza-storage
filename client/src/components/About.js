@@ -5,8 +5,8 @@ import './About.css';
 
 const About = () => {
   return (
-    <Box className="about-section" sx={{ padding: '40px 20px' }}>
-      <Typography variant="h2" gutterBottom sx={{ textAlign: 'center', fontWeight: '700', color: '#ff0000', textShadow: '-6px 0 7px #000' }}>
+    <Box className="about-section">
+      <Typography variant="h2" gutterBottom sx={{ textAlign: 'center', fontWeight: '700', color: '#ff0000' }}>
         About Us
       </Typography>
       <Grid container rowSpacing={{xs: 1, sm: 1.5, lg: 2.5}} columnSpacing={{ xs: 1, sm: 2, lg: 3 }} sx={{ justifyContent: 'space-around', alignItems: 'center' }}>
