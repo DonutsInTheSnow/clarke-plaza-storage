@@ -6,6 +6,7 @@ import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import SmartphoneIcon from '@mui/icons-material/Smartphone';
+import HomeIcon from '@mui/icons-material/Home';
 import PaymentIcon from '@mui/icons-material/Payment';
 import Paper from '@mui/material/Paper';
 
@@ -22,10 +23,15 @@ export default function FixedBottomNavigation({ scrollToStorageUnits }) {
             setValue(newValue);
           }}
         >
+          <BottomNavigationAction 
+            label="Home" 
+            icon={<HomeIcon />} 
+            onClick={() => (window.location.href = '/')}
+          />
           <BottomNavigationAction
             label="Rent A Unit"
             icon={<PaymentIcon />}
-            onClick={scrollToStorageUnits}
+            onClick={() => (window.location.href = '/storageunits')}
           />
           <BottomNavigationAction label="Contact Form" icon={<MailOutlineIcon />} />
           <BottomNavigationAction label="Call Us" icon={<SmartphoneIcon />} />

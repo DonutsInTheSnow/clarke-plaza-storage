@@ -56,7 +56,7 @@ const StorageUnits = () => {
 
   return (
     <Box sx={{ flexGrow: 1, padding: 2 }} className="main-box">
-      <Typography variant="h4" component="h1" gutterBottom sx={{ textAlign: 'center', marginBottom: 5, textShadow: '-1px -2px 3px #aaffaa' }}>
+      <Typography variant="h2" component="h1" gutterBottom sx={{ textAlign: 'center', fontWeight: '700', color: '#ff0000', textShadow: '-6px 0 7px #000' }}>
         Available Storage Units
       </Typography>
 

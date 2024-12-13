@@ -6,10 +6,12 @@ const Hero = () => {
     <div className="heroStyle">
       <div className="overlayStyle"></div>
       <div className="contentStyle">
-        <h1>WeStoreIt4You</h1>
-        <h2 style={{ fontSize: '1.7rem', textAlign: 'center', maxWidth: '600px', letterSpacing: '1px' }}>
-          Gain space at home or work by storing seasonal and rarely used items. Put your car back in the garage!
-        </h2>
+        {/* <h1>Tsunami</h1> */}
+        <img src="/assets/images/tsunami-logo.svg" alt="Tsunami logo" />
+        <h2>Fair Weather Self-Storage</h2>
+        <h3>
+          Not liable for Mother Nature's sneezes, belches or farts.
+        </h3>
       </div>
     </div>
   );

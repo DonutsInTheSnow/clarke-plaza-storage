@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import StorageUnits from './components/StorageUnits';
 import { loadStripe } from '@stripe/stripe-js';
@@ -20,12 +20,6 @@ import '@fontsource/roboto/700.css';
 const stripePromise = loadStripe('pk_test_51QNeVREsjKcEVPdeUjDik70SFVHHMj1ZRiuS5A1nDaPSQIVAlGfdWKgvg2arB186ytYebkDhqeRf1CV4bn7TtR4J00HhrRwGIp');
 
 function App() {
-  const storageUnitsRef = useRef(null);
-
-  const scrollToStorageUnits = () => {
-    storageUnitsRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <Router>
       <Routes>
@@ -33,12 +27,9 @@ function App() {
           path="/"
           element={
             <>
-              <BottomNav scrollToStorageUnits={scrollToStorageUnits} />
+              <BottomNav />
               <Hero />
               <About />
-              <div ref={storageUnitsRef}>
-                <StorageUnits />
-              </div>
               <Footer />
             </>
           }
@@ -50,6 +41,15 @@ function App() {
               <Checkout />
             </Elements>
           }
+        />
+        <Route 
+          path="/storageunits" 
+          element={
+            <>
+              <BottomNav />
+              <StorageUnits />
+            </>
+          } 
         />
         <Route path="/confirmation" element={<Confirmation />} />
         <Route path="/success" element={<Success />} />

@@ -7,8 +7,8 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import './Footer.css';
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: '#006622',
-  color: '#ddd',
+  backgroundColor: '#ff0000',
+  color: '#ffffff',
   textAlign: 'center',
   padding: theme.spacing(2),
   boxShadow: 'inset 0 0 7px #000',
@@ -16,7 +16,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Footer() {
   return (
-    <Box sx={{ flexGrow: 1, marginBottom: '3em', padding: '3em 1em 5em 1em', backgroundColor: '#004411' }}>
+    <Box sx={{ flexGrow: 1, marginBottom: '3em', padding: '3em 1em 5em 1em', backgroundColor: '#ff4444' }}>
       <Grid container spacing={3}>
         <Grid size="grow">
           <Item>
@@ -26,7 +26,7 @@ export default function Footer() {
         <Grid size={6}>
           <Item>
             <p>
-              Copyright © <strong>WeStoreIt4You</strong>. All rights reserved.
+              Copyright © <strong>Tsunami Fair Weather Self-Storage</strong>. All rights reserved.
             </p>
           </Item>
         </Grid>
