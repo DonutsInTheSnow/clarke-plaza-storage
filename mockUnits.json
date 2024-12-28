@@ -1,422 +1,362 @@
 [
     {
         "unitNumber": "A1",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,      
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "A2",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "A3",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,       
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "A4",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,       
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "A5",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "A6",
-        "size": "5X5",
+        "size": "5X10",
         "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "A7",
         "size": "10X20",
         "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+        "priceId": "price_1QXPHPIplsHMw5nPbFzHugRY"
     },
     {
         "unitNumber": "A8",
         "size": "10X20",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+        "isAvailable": true,       
+        "priceId": "price_1QXPHPIplsHMw5nPbFzHugRY"
     },
     {
         "unitNumber": "A9",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,        
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "A10",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,       
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "A11",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,        
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "A12",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,        
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "A13",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,       
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "A14",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,       
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "A15",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "A16",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "A17",
         "size": "10X20",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+        "isAvailable": true,       
+        "priceId": "price_1QXPHPIplsHMw5nPbFzHugRY"
     },
     {
         "unitNumber": "A18",
         "size": "10X20",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+        "isAvailable": true,      
+        "priceId": "price_1QXPHPIplsHMw5nPbFzHugRY"
     },
     {
         "unitNumber": "A19",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,       
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "A20",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,        
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "B1",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,        
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "B2",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,        
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "B3",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,        
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "B4",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,       
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "B5",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,        
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "B6",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "B7",
         "size": "10X20",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+        "isAvailable": true,        
+        "priceId": "price_1QXPHPIplsHMw5nPbFzHugRY"
     },
     {
         "unitNumber": "B8",
         "size": "10X20",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+        "isAvailable": true,        
+        "priceId": "price_1QXPHPIplsHMw5nPbFzHugRY"
     },
     {
         "unitNumber": "B9",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,        
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "B10",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,        
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "B11",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "B12",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,        
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "B13",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,        
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "B14",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,        
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "B15",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,        
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "B16",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "B17",
         "size": "10X20",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+        "isAvailable": true,        
+        "priceId": "price_1QXPHPIplsHMw5nPbFzHugRY"
     },
     {
         "unitNumber": "B18",
         "size": "10X20",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+        "isAvailable": true,        
+        "priceId": "price_1QXPHPIplsHMw5nPbFzHugRY"
     },
     {
         "unitNumber": "B19",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,        
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "B20",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,        
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "C1",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,        
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "C2",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "C3",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,        
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "C4",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,        
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "C5",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "C6",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "C7",
         "size": "10X20",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+        "isAvailable": true,      
+        "priceId": "price_1QXPHPIplsHMw5nPbFzHugRY"
     },
     {
         "unitNumber": "C8",
         "size": "10X20",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+        "isAvailable": true,       
+        "priceId": "price_1QXPHPIplsHMw5nPbFzHugRY"
     },
     {
         "unitNumber": "C9",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,       
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "C10",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,      
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "C11",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "C12",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "C13",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,       
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "C14",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,       
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "C15",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "C16",
-        "size": "5X5",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeXcEsjKcEVPdevpfRzw7I"
+        "size": "5X10",
+        "isAvailable": true,       
+        "priceId": "price_1QXPGFIplsHMw5nPEifkfXmi"
     },
     {
         "unitNumber": "C17",
         "size": "10X20",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+        "isAvailable": true,      
+        "priceId": "price_1QXPHPIplsHMw5nPbFzHugRY"
     },
     {
         "unitNumber": "C18",
         "size": "10X20",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeb0EsjKcEVPdeOlcwNsY5"
+        "isAvailable": true,       
+        "priceId": "price_1QXPHPIplsHMw5nPbFzHugRY"
     },
     {
         "unitNumber": "C19",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,       
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     },
     {
         "unitNumber": "C20",
         "size": "10X10",
-        "isAvailable": true,
-        "nextPaymentDue": "2024-12-01T00:00:00Z",
-        "priceId": "price_1QNeYyEsjKcEVPdeo2ClLtTa"
+        "isAvailable": true,       
+        "priceId": "price_1QXPGqIplsHMw5nP9I1HaPuz"
     }
 ]

@@ -27,7 +27,7 @@ app.use(express.json());
 
 const allowedOrigins = [
   'https://self-storage-frontend.vercel.app', 
-  'http://localhost:3000', 
+  'http://localhost:5173', 
 ];
 const corsOptions = {
   origin: (origin, callback) => {
