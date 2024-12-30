@@ -14,7 +14,8 @@ const StorageUnits = () => {
   useEffect(() => {
     const fetchUnits = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/units/available');
+        const response = await axios.get('https://clarke-plaza-storage-backend.vercel.app/units/available');
+        // const response = await axios.get('http://localhost:3001/units/available');
         const unitsWithPrices = await Promise.all(
           response.data.map(async (unit) => {
             if (unit.priceId) {
