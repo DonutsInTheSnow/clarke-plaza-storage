@@ -7,15 +7,15 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 // Connect to MongoDB
-// mongoose.connect(process.env.MONGO_URI)
-//   .then(() => console.log('Connected to MongoDB!'))
-//   .catch(err => console.error('Failed to connect to MongoDB', err));
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log('Connected to MongoDB!'))
+  .catch(err => console.error('Failed to connect to MongoDB', err));
 
 // Try the following mongoose.connect for Vercel
-mongoose.connect(process.env.MONGO_URI, { 
-  useNewUrlParser: true, 
-  useUnifiedTopology: true 
-});
+// mongoose.connect(process.env.MONGO_URI, { 
+//   useNewUrlParser: true, 
+//   useUnifiedTopology: true 
+// });
 
 // For Stripe webhook listeners to work the following 2 lines must 
 // precede `express.json()` because it interferes with raw data in webhook.js 
