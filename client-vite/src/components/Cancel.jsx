@@ -7,15 +7,15 @@ const Cancel = () => {
       <Typography variant="h2" gutterBottom sx={{ textAlign: 'center', fontWeight: '700', color: '#de3589' }}>
         Payment Cancelled!
       </Typography>
-      <Grid container spacing={3} sx={{ justifyContent: 'center' }}>
+      <Grid container spacing={2} sx={{ justifyContent: 'center' }}>
         <Grid size={{ xs: 12, md: 8 }}>
           <Typography variant="body1" sx={{ fontSize: '22px', fontWeight: '600', lineHeight: '1.6', textAlign: 'center', color: '#fff', textShadow: '0 0 3px #000' }}>
-            So you decided not to rent from my establishment. May I call you Schumer? I'll call you Schumer. Scientific fact: Schumer's ladies, like Miss Dubble Bertha (pictured), love pancakes. No, not three coaster sized jobs. Twelve to fourteen while waiting on the waffles.
+            Your transaction has been cancelled. If you intended to rent one of our units please try again.
           </Typography>
         </Grid>
         <Grid size={{ xs: 12, md: 6 }}>
           <img
-            src="/assets/images/cancel.webp"
+            src="/assets/images/wolfe-aerial.webp"
             alt="Payment Cancel"
             style={{ width: '100%', borderRadius: '8px', marginTop: '20px' }}
           />
@@ -37,7 +37,7 @@ const Cancel = () => {
                 maxWidth: '300px',
                 }}
             >
-                HOOVER
+                HOME
             </a>
         </Grid>
       </Grid>

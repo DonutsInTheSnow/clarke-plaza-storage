@@ -9,13 +9,13 @@ const Success = () => {
       </Typography>
       <Grid container spacing={3} sx={{ justifyContent: 'center' }}>
         <Grid size={{ xs: 12, md: 8 }}>
-          <Typography variant="body1" sx={{ fontSize: '22px', fontWeight: '600', lineHeight: '1.6', textAlign: 'center' }}>
-            Hi there! Thanks for being cool as you are to rent from my establishment. You're obviously blessed with a miraculously high intelligence quotient because you've picked the greatest storage rental unit ever created in the Universe. That's a scientific fact. Who her? That's not me I can tell you that. Naw, man. I'm a bald nearly 60-year-old man with stanky breath, ear wax, and a general hostility towards authoritarians. Just sayin.
+          <Typography variant="body1" sx={{ fontSize: '22px', fontWeight: '600', lineHeight: '1.6', textAlign: 'center', color: '#045039' }}>
+            Thanks for renting one of our units! Let us know if there is anything you need. We are at your service.
           </Typography>
         </Grid>
         <Grid size={{ xs: 12, md: 6 }}>
           <img
-            src="/assets/images/success.webp"
+            src="/assets/images/wolfe-aerial.webp"
             alt="Payment Success"
             style={{ width: '100%', borderRadius: '8px', marginTop: '20px' }}
           />
@@ -25,8 +25,8 @@ const Success = () => {
                 href="/" 
                 style={{
                 textDecoration: 'none',
-                backgroundColor: '#1976d2',
-                color: 'white',
+                backgroundColor: '#045039',
+                color: '#ffffff',
                 fontSize: '24px',
                 fontWeight: 'bold',
                 padding: '20px 40px',
