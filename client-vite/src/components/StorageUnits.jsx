@@ -14,13 +14,13 @@ const StorageUnits = () => {
   useEffect(() => {
     const fetchUnits = async () => {
       try {
-        const response = await axios.get('https://clarke-plaza-storage-backend.vercel.app/units/available');
+        const response = await axios.get('https://clarke-plaza-storage-backend.vercel.app/api/units/available');
         // const response = await axios.get('http://localhost:3001/units/available');
         const unitsWithPrices = await Promise.all(
           response.data.map(async (unit) => {
             if (unit.priceId) {
               try {
-                const priceResponse = await axios.get(`https://clarke-plaza-storage-backend.vercel.app/checkout/get-price-details/${unit.priceId}`);
+                const priceResponse = await axios.get(`https://clarke-plaza-storage-backend.vercel.app/api/checkout/get-price-details/${unit.priceId}`);
                 // const priceResponse = await axios.get(`http://localhost:3001/checkout/get-price-details/${unit.priceId}`);
                 return { ...unit, price: priceResponse.data.price };
               } catch (err) {

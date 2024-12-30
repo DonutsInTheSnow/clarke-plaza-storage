@@ -6,8 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://clarke-plaza-storage-backend.vercel.app', 
-      // '/api': 'http://localhost:3001', 
+      '/api': 'http://localhost:3001', 
     },
   },
 })
