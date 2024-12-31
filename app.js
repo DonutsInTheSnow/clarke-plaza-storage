@@ -52,7 +52,7 @@ app.use('/units', unitsRouter);
 
 // Root Route
 app.get('/', (_, res) => {
-  res.send('Welcome to Rourke Storage API!');
+  res.send('Welcome to Clarke Plaza Storage API!');
 });
 
 // Troubleshooting 404 Not Found error at Vercel with following log
