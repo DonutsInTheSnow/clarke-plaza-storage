@@ -25,7 +25,7 @@ router.post('/', express.raw({ type: 'application/json' }), async (req, res) => 
                 }
                 const unitId = session.metadata.unitId;
                 const isAvailable = session.metadata.isAvailable;
-                console.log(`isAvailable FUCKER: ${isAvailable}`);
+                console.log(`isAvailable: ${isAvailable}`);
 
                 // Update the unit's isAvailable status
                 const result = await Unit.findByIdAndUpdate(unitId, { isAvailable: false });
