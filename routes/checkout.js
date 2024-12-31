@@ -74,9 +74,7 @@ router.post('/create-checkout-session', async (req, res) => {
         isAvailable: unit.isAvailable,
       },
       success_url: 'https://clarke-plaza-storage.vercel.app/success',
-      // success_url: 'http://localhost:5173/success',
       cancel_url: 'https://clarke-plaza-storage.vercel.app/cancel',
-      // cancel_url: 'http://localhost:5173/cancel',
     });
 
     res.status(200).json({ id: session.id });
