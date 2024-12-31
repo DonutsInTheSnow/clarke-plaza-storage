@@ -13,7 +13,6 @@ import { Stack } from '@mui/material';
 import './Footer.css';
 
 const Item = styled(Paper)(({ theme }) => ({
-  // backgroundColor: '#ff0000',
   color: '#ffffff',
   textAlign: 'center',
   padding: theme.spacing(2)

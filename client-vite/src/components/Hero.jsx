@@ -1,26 +1,3 @@
-// import Box from '@mui/material/Box';
-// import './Hero.css';
-
-// const Hero = () => {
-//   return (
-//     <div className="heroStyle">
-//       <div className="overlayStyle"></div>
-//       <div className="contentStyle">
-//         <Box component="div" sx={{ width: '100%', height: 'auto', backgroundColor: 'rgba(44, 134, 124, 0.8)', padding: '1rem', boxShadow: 'inset 0 0 5px #000', borderRadius: '10px' }} >
-//           <img src="/assets/images/clarke-logo.svg" alt="Clarke logo" width="250" height="auto" />
-//         </Box>
-//         <h2>Put your car back in the garage!</h2>
-//         <h3>Store your rarely used or seasonal items with us.</h3>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Hero;
-
-
-
-// The following snippet uses grow for the fade-in effect. The code above is without.
 import { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import './Hero.css';

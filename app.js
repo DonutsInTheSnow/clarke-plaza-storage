@@ -26,7 +26,7 @@ app.use('/webhook', webhookRoutes);
 app.use(express.json());
 
 const allowedOrigins = [
-  'https://clarke-plaza-storage-frontend.vercel.app', 
+  'https://clarke-plaza-storage.vercel.app', 
   'http://localhost:5173', 
 ];
 const corsOptions = {
