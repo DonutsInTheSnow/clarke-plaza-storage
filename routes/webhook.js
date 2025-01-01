@@ -5,7 +5,7 @@ const Stripe = require('stripe');
 const stripe = new Stripe(process.env.STRIPE_SK);
 
 router.post('/', express.raw({ type: 'application/json' }), async (req, res) => {
-    // console.log("Raw request body received:", req.body);
+    console.log("Raw request body received:", req.body);
     const sig = req.headers['stripe-signature'];
     try {
         const event = stripe.webhooks.constructEvent(
@@ -13,7 +13,7 @@ router.post('/', express.raw({ type: 'application/json' }), async (req, res) => 
             sig,
             process.env.STRIPE_WEBHOOK_SECRET
         );
-        // console.log("Parsed event data:", event);
+        console.log("Parsed event data:", event);
 
         if (event.type === 'checkout.session.completed') {
             const session = event.data.object;
