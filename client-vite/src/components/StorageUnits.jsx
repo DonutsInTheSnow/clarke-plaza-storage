@@ -187,4 +187,3 @@ const StorageUnits = () => {
 };
 
 export default StorageUnits;
-

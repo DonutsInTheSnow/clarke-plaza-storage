@@ -13,7 +13,7 @@ import BottomNav from './components/BottomNav';
 import Footer from './components/Footer';
 import './App.css';
 
-const stripePromise = loadStripe('pk_test_51QXPEkIplsHMw5nPyklN27i0iOACGDzjPD5Nnm1I3AAvOK1qG7MIf6PmAHbgBVntHx64zSndvzjhOlcUDdshBlN800Z1pgT3zK');
+const stripePromise = loadStripe('pk_test_51QjMomAnyDqxgibe4aY0MekAbLcPyIVS4fLzcBcfuhC7R0u85e5rhkaQ0XWmNqnLtWOKGK9htkt0jJGMf6Z0Kklo00QNn6xUYh');
 
 function App() {
   return (

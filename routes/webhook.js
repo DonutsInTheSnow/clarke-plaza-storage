@@ -47,4 +47,3 @@ router.post('/', express.raw({ type: 'application/json' }), async (req, res) => 
 });
 
 module.exports = router;
-
